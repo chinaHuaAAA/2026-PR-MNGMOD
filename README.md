@@ -10,7 +10,7 @@ Run `main_2_K_copy_runs.py` from the project root directory:
 python main_2_K_copy_runs.py
 ```
 
-The script runs MNGMOD on the `.mat` datasets in the `mydata_4` directory. Each dataset should contain a variable named `trandata`, with features in the first columns and the ground-truth label in the last column (`0` for normal samples and `1` for outliers).
+The script runs MNGMOD on the `.mat` datasets in the `Datasets` directory. Each dataset should contain a variable named `trandata`, with features in the first columns and the ground-truth label in the last column (`0` for normal samples and `1` for outliers).
 
 ## Parameter Settings
 
