@@ -25,4 +25,4 @@ A two-stage parameter search is performed. First, `k2` is fixed at `1.0` to sele
 
 Each evaluated parameter combination is run **10 times in parallel**, using random seeds **42–51**. Metrics are calculated separately for each run and then summarized by their mean and standard deviation.
 
-Results are saved as Excel and PKL files in `myresult/MNGMOD`. The PKL files retain the anomaly score sequence for every parameter combination and random seed.
+Results are saved as Excel and PKL files in `Result/MNGMOD`. The PKL files retain the anomaly score sequence for every parameter combination and random seed.
